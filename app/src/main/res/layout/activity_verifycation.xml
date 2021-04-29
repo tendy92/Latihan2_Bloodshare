@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    android:background="@color/blue"
+    tools:context=".Verifycation">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/verify"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_marginTop="100dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/we"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:textAlignment="center"
+        android:paddingTop="30dp"
+        android:layout_margin="30dp"
+        android:inputType="textPersonName"
+        android:text="enter verifycation code here..." />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom2"
+            android:clickable="true"
+            android:textAlignment="center"
+            android:text="SEND"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:onClick="home"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20dp"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="doesn't get the code? "
+            android:textSize="13dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:paddingLeft="85dp"/>
+        <TextView
+            android:id="@+id/txtregister"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Resend"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    <!--Tanggal Pengerjaan : 28 April 2021-->
+    <!--Nim : 10118083-->
+    <!--Nama : Tendy Hermansyah-->
+    <!--Kelas : IF-2-->

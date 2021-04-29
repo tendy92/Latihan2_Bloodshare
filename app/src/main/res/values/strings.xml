@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Latihan2_Bloodshare</string>
+    <string name="user">Username</string>
+    <string name="pass">Password</string>
+    <string name="re">ReType Password</string>
+    <string name="email">Email</string>
+    <string name="num">Phone Number</string>
+    <string name="name">Tendy Hermansyah</string>
+    <string name="nim">10118083</string>
+    <string name="kelas">IF-2</string>
+    <string name="home">Home Address</string>
+    <string name="def">Default Location</string>
+
+    <string name="almost">Almost There</string>
+    <string name="thank">Thank you for registering with us. One more</string>
+    <string name="step">step, you need to check your email</string>
+    <string name="to">to active your account</string>
+
+    <string name="verify">Verify your Account</string>
+    <string name="we">We have send verification code to your email</string>
+
+    <string-array name="blood">
+        <item>Blood Type</item>
+    </string-array>
+    <string-array name="reshus">
+        <item>Reshus</item>
+    </string-array>
+    <string-array name="job">
+        <item>Job</item>
+    </string-array>
+</resources>
